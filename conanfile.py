@@ -5,7 +5,7 @@ class BoostMp11Conan(ConanFile):
     name = "Boost.Mp11"
     version = "1.66.0"
 
-    build_requires = \
+    requires = \
         "Boost.Config/1.66.0@bincrafters/testing" 
 
     lib_short_names = ["mp11"]
