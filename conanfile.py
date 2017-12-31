@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostMp11Conan(ConanFile):
     name = "boost_mp11"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-mp11"
+    url = "https://github.com/bincrafters/conan-boost_mp11"
     
     lib_short_names = ["mp11"]
     is_header_only = True
