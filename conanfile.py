@@ -4,11 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostMp11Conan(base.BoostBaseConan):
     name = "boost_mp11"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_mp11"
-    lib_short_names = ["mp11"]
-    header_only_libs = ["mp11"]
+    version = "1.70.0"
